@@ -53,3 +53,13 @@ if (answer6.toUpperCase() === 'Y' || answer6.toUpperCase() === 'YES') {
 } else {
   alert('Totally wrong. This is why I am here!')
 }
+
+document.write("<p>"+"Question 1: Do you think I am over 30 years old? Answer: YES. You answered: " + answer2.toUpperCase()+"</p>");
+
+document.write("<p>"+"Question 2: Do you think I am from California? Answer: NO. You answered: " + answer3.toUpperCase()+"</p>");
+
+document.write("<p>"+"Question 3: Do you think I am a military vet? Answer: NO. You answered: " + answer4.toUpperCase()+"</p>");
+
+document.write("<p>"+"Question 4: Do you think I have ever traveled outside of North America? Answer: YES. You answered: " + answer5.toUpperCase()+"</p>");
+
+document.write("<p>"+"Question 5: Do you think I want to learn code to make money? Answer: YES. You answered: " + answer6.toUpperCase()+"</p>");
