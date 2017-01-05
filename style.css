@@ -8,7 +8,7 @@ p {
 }
 
 .header{
-  font-size: 120px;
+  font-size: 80px;
   text-align: center;
   color: gold;
   background-color: black;
@@ -16,19 +16,27 @@ p {
 }
 
 .paragraph1{
-  font-size: 32px;
+  font-size: 24px;
   text-align: center;
   background-color: green
 }
 
 #paragraph3{
-  font-size: 32px;
+  font-size: 24px;
   text-align: center;
   background-color: green;
 }
 
 .paragraph2{
-  font-size: 32px;
+  font-size: 24px;
   text-align: center;
   background-color: green;
+}
+
+ul{
+  font-size: 20px;
+}
+
+h2{
+  font-size: 24px;
 }
