@@ -83,8 +83,8 @@ if (parseInt(answer7) === 18) {
 
   var countries = ['taiwan', 'thailand', 'cambodia', 'costa rica', 'spain', 'italy', 'france', 'switzerland', 'dominican republic', 'argentina', 'brazil', 'peru', 'bolivia', 'uruguay', 'chile'];
 
-  for (var index = 0; index < countries.length; index++) {
-    var answer8 = prompt('Ok, now that you know I\'ve been to 18 countries, lets see if you can guess one that I\'ve been to outside the United States.  I\'ll give you 6 guesses. Good luck.').toLowerCase();
+  for (var index = 0; index < 5; index++) {
+    var answer8 = prompt('Ok, now that you know I\'ve been to 18 countries, lets see if you can guess one that I\'ve been to outside of North America.  I\'ll give you 6 guesses. Good luck.').toLowerCase();
     console.log('The user guessed ' + answer8);
     for (var guess = 0; guess < countries.length; guess++) {
       console.log('what?');
@@ -99,7 +99,7 @@ if (parseInt(answer7) === 18) {
       alert('Nope. Guess again.');
   }
 }
-      alert(username + ' You got' + counter + 'questions correct!');
+      alert(username + ' You got ' + counter + ' questions correct!');
 
 
 
