@@ -66,16 +66,18 @@ function questionFive() {
   }
 }
 questionFive();
-var answer6 = prompt('Do you think I want to learn code to make money?');
-console.log('The user answered: ' + answer6);
+function questionSix() {
+  var answer6 = prompt('Do you think I want to learn code to make money?');
+  console.log('The user answered: ' + answer6);
 
-if (answer6.toUpperCase() === 'Y' || answer6.toUpperCase() === 'YES') {
-  alert('Correct! You bet your ass I am!');
-  counter ++;
-} else {
-  alert('Totally wrong. This is why I am here!');
+  if (answer6.toUpperCase() === 'Y' || answer6.toUpperCase() === 'YES') {
+    alert('Correct! You bet your ass I am!');
+    counter ++;
+  } else {
+    alert('Totally wrong. This is why I am here!');
+  }
 }
-
+questionFive();
 var answer7 = prompt('Ok, good job.  Now let\'s try something different. I love to travel. How many countries do you think I\'ve been to?  Please answer with a number. You get 4 guesses.');
 console.log('The user answered: ' + answer7);
 
