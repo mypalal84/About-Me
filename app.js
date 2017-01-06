@@ -41,14 +41,17 @@ function questionThree() {
   }
 }
 questionThree();
-var answer4 = prompt('Do you think I am a military vet?');
-console.log('The user answered: ' + answer4);
 
-if (answer4.toUpperCase() === 'Y' || answer4.toUpperCase() === 'YES') {
-  alert('No, sorry. I totally tricked you on that one.');
-} else {
-  alert('Correct! I tried to trick you on that one.');
-  counter ++;
+function questionFour() {
+  var answer4 = prompt('Do you think I am a military vet?');
+  console.log('The user answered: ' + answer4);
+
+  if (answer4.toUpperCase() === 'Y' || answer4.toUpperCase() === 'YES') {
+    alert('No, sorry. I totally tricked you on that one.');
+  } else {
+    alert('Correct! I tried to trick you on that one.');
+    counter ++;
+  }
 }
 
 var answer5 = prompt('Do you think I have ever traveled outside of North America?');
