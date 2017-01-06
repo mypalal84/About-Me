@@ -54,16 +54,18 @@ function questionFour() {
   }
 }
 questionFour();
-var answer5 = prompt('Do you think I have ever traveled outside of North America?');
-console.log('The user answered: ' + answer5);
+function questionFive() {
+  var answer5 = prompt('Do you think I have ever traveled outside of North America?');
+  console.log('The user answered: ' + answer5);
 
-if (answer5.toUpperCase() === 'Y' || answer5.toUpperCase() === 'YES') {
-  alert('Right you are! I\'ve been all over the place.');
-  counter ++;
-} else {
-  alert('You were way off!');
+  if (answer5.toUpperCase() === 'Y' || answer5.toUpperCase() === 'YES') {
+    alert('Right you are! I\'ve been all over the place.');
+    counter ++;
+  } else {
+    alert('You were way off!');
+  }
 }
-
+questionFive();
 var answer6 = prompt('Do you think I want to learn code to make money?');
 console.log('The user answered: ' + answer6);
 
