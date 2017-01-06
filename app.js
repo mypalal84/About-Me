@@ -28,16 +28,19 @@ function questionTwo() {
     alert('Wrong! I am actually 32');
   }
 }
-var answer3 = prompt('Do you think I am from California?');
-console.log('The user answered: ' + answer3);
+questionTwo();
+function questionThree() {
+  var answer3 = prompt('Do you think I am from California?');
+  console.log('The user answered: ' + answer3);
 
-if (answer3.toUpperCase() === 'Y' || answer3.toUpperCase() === 'YES') {
-  alert('Nope. I grew up here in Seattle.');
-} else {
-  alert('Correct. Not from California. I grew up in Seattle.');
-  counter ++;
+  if (answer3.toUpperCase() === 'Y' || answer3.toUpperCase() === 'YES') {
+    alert('Nope. I grew up here in Seattle.');
+  } else {
+    alert('Correct. Not from California. I grew up in Seattle.');
+    counter ++;
+  }
 }
-
+questionThree();
 var answer4 = prompt('Do you think I am a military vet?');
 console.log('The user answered: ' + answer4);
 
