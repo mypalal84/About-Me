@@ -53,7 +53,7 @@ function questionFour() {
     counter ++;
   }
 }
-
+questionFour();
 var answer5 = prompt('Do you think I have ever traveled outside of North America?');
 console.log('The user answered: ' + answer5);
 
