@@ -1,7 +1,13 @@
 'use strict';
 
 var counter = 0;
+
 var username = prompt('What is your name?');
+
+if (username != null) {
+  alert('Thanks ' + username + ', let\'s play a game!');
+}
+
 console.log('The user answered: ' + username);
 
 function questionOne() {
